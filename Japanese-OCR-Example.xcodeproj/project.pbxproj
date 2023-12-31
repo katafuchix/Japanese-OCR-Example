@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		316C40AB2B402EAF00959FE6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C40AA2B402EAF00959FE6 /* ViewModel.swift */; };
 		316C40AD2B4036C500959FE6 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C40AC2B4036C500959FE6 /* ControlView.swift */; };
 		317E8F432B3FEAF1006AE604 /* Japanese_OCR_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E8F422B3FEAF1006AE604 /* Japanese_OCR_ExampleApp.swift */; };
 		317E8F452B3FEAF1006AE604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E8F442B3FEAF1006AE604 /* ContentView.swift */; };
 		317E8F472B3FEAF2006AE604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317E8F462B3FEAF2006AE604 /* Assets.xcassets */; };
 		317E8F4A2B3FEAF2006AE604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317E8F492B3FEAF2006AE604 /* Preview Assets.xcassets */; };
-		317E8F532B3FEBB4006AE604 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E8F522B3FEBB4006AE604 /* CameraManager.swift */; };
+		31AA62DA2B41148800A8FCB8 /* OCRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA62D92B41148800A8FCB8 /* OCRManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		316C40AA2B402EAF00959FE6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		316C40AC2B4036C500959FE6 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		317E8F3F2B3FEAF1006AE604 /* Japanese-OCR-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese-OCR-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		317E8F422B3FEAF1006AE604 /* Japanese_OCR_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japanese_OCR_ExampleApp.swift; sourceTree = "<group>"; };
 		317E8F442B3FEAF1006AE604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		317E8F462B3FEAF2006AE604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		317E8F492B3FEAF2006AE604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		317E8F522B3FEBB4006AE604 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		31AA62D92B41148800A8FCB8 /* OCRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRManager.swift; sourceTree = "<group>"; };
 		31C8C7082B3FF06B00DCF13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,8 +59,7 @@
 				31C8C7082B3FF06B00DCF13E /* Info.plist */,
 				317E8F422B3FEAF1006AE604 /* Japanese_OCR_ExampleApp.swift */,
 				317E8F442B3FEAF1006AE604 /* ContentView.swift */,
-				316C40AA2B402EAF00959FE6 /* ViewModel.swift */,
-				317E8F522B3FEBB4006AE604 /* CameraManager.swift */,
+				31AA62D92B41148800A8FCB8 /* OCRManager.swift */,
 				316C40AC2B4036C500959FE6 /* ControlView.swift */,
 				317E8F462B3FEAF2006AE604 /* Assets.xcassets */,
 				317E8F482B3FEAF2006AE604 /* Preview Content */,
@@ -148,9 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31AA62DA2B41148800A8FCB8 /* OCRManager.swift in Sources */,
 				317E8F452B3FEAF1006AE604 /* ContentView.swift in Sources */,
-				317E8F532B3FEBB4006AE604 /* CameraManager.swift in Sources */,
-				316C40AB2B402EAF00959FE6 /* ViewModel.swift in Sources */,
 				317E8F432B3FEAF1006AE604 /* Japanese_OCR_ExampleApp.swift in Sources */,
 				316C40AD2B4036C500959FE6 /* ControlView.swift in Sources */,
 			);
